@@ -1,13 +1,12 @@
-import s from "./App.module.scss";
-import Header from "./Components/Widgets/Header/Header";
-import Body from "./Components/Widgets/Body/Body";
+import { Header } from "./Components";
+import Router from "./Components/Router/Router";
 
 function App() {
   return (
-    <div className={s.app}>
+    <div className="App">
       <Header />
-      <div className={s.body_container}>
-        <Body />
+      <div className="container">
+        <Router/>
       </div>
     </div>
   );

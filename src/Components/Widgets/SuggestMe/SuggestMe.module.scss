@@ -1,0 +1,19 @@
+@use "../../../scss" as *;
+
+.suggestMe {
+  max-width: 588px;
+  margin: 80px 0 72px;
+  &__title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 16px;
+    color: $title-color;
+  }
+  &__txt {
+    color: #8e95a9;
+    p {
+      margin-bottom: 16px;
+    }
+  }
+}

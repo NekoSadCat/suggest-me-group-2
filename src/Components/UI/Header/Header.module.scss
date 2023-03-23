@@ -1,0 +1,19 @@
+@use "../../../scss" as *;
+
+.header {
+  height: 80px;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  padding: 16px 0;
+  background: rgba(18, 24, 41, 0.8);
+  backdrop-filter: blur(20px);
+  color: $navBar-color;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+  @include flex(center, space-between);
+}
