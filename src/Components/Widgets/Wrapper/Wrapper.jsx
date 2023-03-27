@@ -1,33 +1,15 @@
-import s from "./Wrapper.module.scss";
+import styles from "./Wrapper.module.scss";
 import { Card } from "../../index";
 import { Link } from "react-router-dom";
-import { getMovies } from "../../../apiConfig/apiRequest";
 
-
-import { useEffect, useState } from "react";
-
-const Wrapper = () => {
-
-  const [movie, setMovie] = useState([]);
-
-
-  useEffect(() => {
-    const fetchPopularMovies = async () => {
-
-      const data = await getMovies();
-
-      setMovie(data);
-    };
-    fetchPopularMovies();
-  }, []);
+const Wrapper = ({ movie }) => {
+  const topEightMovies = movie.slice(0, 8);
 
   return (
-      <div className={s.Wrapper}>
-
-        {movie.map((movie) => (
-
-            <Link to={`/details/${movie._id}`} key={movie._id}>
-              <Card data={movie} />
+      <div className={styles.wrapper}>
+        {topEightMovies.map((currentMovie) => (
+            <Link to={`/details/${currentMovie._id}`} key={currentMovie._id}>
+              <Card data={currentMovie} />
             </Link>
         ))}
       </div>

@@ -4,32 +4,28 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getMovieDetails } from "../../../apiConfig/apiRequest";
 
-function Details() {
+const Details = () => {
+  const [movieDetails, setMovieDetails] = useState({genres: []});
+  const params = useParams();
 
-    const [movie, setMovie] = useState({ genres: [] });
+  useEffect(() => {
+    const fetchMovieDetails = async () => {
+      try {
+        const movieData = await getMovieDetails(params.id);
+        setMovieDetails(movieData);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    fetchMovieDetails();
+  }, [params.id]);
 
-
-    const params = useParams();
-
-    useEffect(() => {
-
-        async function fetchMovieDetails() {
-
-            const data = await getMovieDetails(params.id);
-
-            setMovie(data);
-        }
-
-        fetchMovieDetails();
-    }, [params.id]);
-
-    return (
-
-        <div className={s.details}>
-            <DetailsPoster data={movie} />
-            <DetailsInfo data={movie} />
-        </div>
-    );
-}
+  return (
+      <div className={s.details}>
+        <DetailsPoster data={movieDetails} />
+        <DetailsInfo data={movieDetails} />
+      </div>
+  );
+};
 
 export default Details;

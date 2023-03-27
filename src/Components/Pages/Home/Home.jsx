@@ -1,14 +1,13 @@
-import { SuggestMe, Ganre, Wrapper, Footer } from "../../../Components";
+import { SuggestMe, Ganre,Footer } from "../../../Components";
 
-function Body() {
-    return (
-        <div>
-            <SuggestMe />
-            <Ganre />
-            <Wrapper />
-            <Footer />
-        </div>
-    );
-}
+const Body = () => {
+  return (
+    <div>
+      <SuggestMe />
+      <Ganre />
+      <Footer/>
+    </div>
+  );
+};
 
 export default Body;

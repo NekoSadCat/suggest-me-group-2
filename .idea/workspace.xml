@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="525b17e9-d43b-486d-999a-ce37689d0493" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Body/Body.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Body/Body.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Header/Header.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Logo/Logo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Logo/Logo.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Navbar/Navbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Navbar/Navbar.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/icon-film.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    <list default="true" id="296d35cb-6783-48ce-b306-0478d60e757c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Details/Details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Details/Details.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/NavBar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/NavBar/NavBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/DetailsInfo/DetailsInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Widgets/DetailsInfo/DetailsInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/DetailsPoster/DetailsPoster.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Widgets/DetailsPoster/DetailsPoster.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Ganre/Ganre.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Widgets/Ganre/Ganre.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Ganre/Ganre.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Widgets/Ganre/Ganre.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Wrapper/Wrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Widgets/Wrapper/Wrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Widgets/Wrapper/Wrapper.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Widgets/Wrapper/Wrapper.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apiConfig/apiRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiConfig/apiRequest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,77 +26,43 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev-andrey-romanskiy" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2NNK8S3loMQeuxx6iLCfysjhk26" />
+  <component name="ProjectId" id="2Nai0dPf78SN2AXXCoXsWFnWDJa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Programs\\PhpStorm 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="525b17e9-d43b-486d-999a-ce37689d0493" name="Changes" comment="" />
-      <created>1679498940342</created>
+      <changelist id="296d35cb-6783-48ce-b306-0478d60e757c" name="Changes" comment="" />
+      <created>1679908401332</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679498940342</updated>
-      <workItem from="1679498943313" duration="666000" />
-      <workItem from="1679518380002" duration="171000" />
-      <workItem from="1679522247629" duration="315000" />
-      <workItem from="1679533365835" duration="1617000" />
+      <updated>1679908401332</updated>
+      <workItem from="1679908404686" duration="187000" />
+      <workItem from="1679908711379" duration="669000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="User">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="*" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
