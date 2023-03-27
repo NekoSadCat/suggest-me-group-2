@@ -7,16 +7,18 @@ const FilmInfo = ({film}) => {
     <Container>
       <div className={s.filmInfo}>
         <section className={s.filmInfo__picture}>
-          <img src={film.posterUrl} alt="Avengers Endgame" className={s.filmInfo__image} />
+          <img src={film?.posterUrl} alt="Avengers Endgame" className={s.filmInfo__image} />
         </section>
         <section className={s.filmInfo__describe}>
           <h2 className={s.filmInfo__title}>
-            Part of the journey is the end.
+            {film?.tagline}
           </h2>
+
           <p className={s.filmInfo__description}>
-            {film.description}
+            {film?.description}
           </p>
-          <Rate rate={film.rating}/>
+
+          <Rate rate={film.vote_average}/>
 
           <div className={s.filmInfo__info}>
             <h3 className={s.filmInfo__category}>
@@ -24,7 +26,7 @@ const FilmInfo = ({film}) => {
             </h3>
 
             <p className={s.filmInfo__text}>
-              {film.type}
+              {film?.type}
             </p>
           </div>
 
@@ -33,7 +35,7 @@ const FilmInfo = ({film}) => {
               Release Date:
             </h3>
             <p className={s.filmInfo__text}>
-              {film.releaseDate}
+              {film?.releaseDate}
             </p>
           </div>
 
@@ -42,7 +44,7 @@ const FilmInfo = ({film}) => {
               Run time
             </h3>
             <p className={s.filmInfo__text}>
-              {film.runtime}
+              {film?.runtime}
             </p>
           </div>
 
@@ -51,11 +53,7 @@ const FilmInfo = ({film}) => {
               Genres
             </h3>
             <p className={s.filmInfo__text}>
-              {film.genres.map((genre) => (
-                <span key={genre.externalId}>
-                  {genre.name + " "}
-                </span>
-              ))}
+              {film.genres && film.genres.map((genre) => genre.name).join(", ")}
             </p>
           </div>
         </section>

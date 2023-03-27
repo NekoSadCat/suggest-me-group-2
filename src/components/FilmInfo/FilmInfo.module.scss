@@ -14,6 +14,10 @@
     border-radius: 24px;
   }
 
+  &__picture {
+    min-width: 480px;
+  }
+
   &__describe {
     display: flex;
     flex-direction: column;

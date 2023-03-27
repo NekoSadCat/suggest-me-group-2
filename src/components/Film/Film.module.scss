@@ -10,8 +10,8 @@
   backdrop-filter: blur(40px);
   border-radius: 12px;
 
-  margin-bottom: 20px;
   padding: 8px;
+  margin-bottom: 20px;
 
   &__rate {
     position: absolute;
@@ -32,5 +32,7 @@
 
     width: 100%;
     padding: 24px 0 24px 16px;
+    overflow: hidden;
+    height: 54px;
   }
 }
