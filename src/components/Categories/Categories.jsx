@@ -6,11 +6,7 @@ const Categories = ({category, setCategory, setSelectedId, genres}) => {
   const handleCategoryClick = (e) => {
     setCategory(e.currentTarget.value);
     setSelectedId(e.currentTarget.name);
-
-    console.log(e.currentTarget);
-    console.log();
   }
-  console.log(genres);
   return (
     <Container>
       <ul className={s.category}>

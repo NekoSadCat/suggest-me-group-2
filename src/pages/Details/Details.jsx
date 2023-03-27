@@ -18,8 +18,6 @@ const Details = () => {
     fetchMovieDetails();
   }, [params.id]);
 
-  console.log("movie - ", movie);
-
   return (
     <main className={s.details}>
       <FilmCover film={movie}/>

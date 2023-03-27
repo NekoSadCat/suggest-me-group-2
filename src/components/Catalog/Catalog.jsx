@@ -47,8 +47,6 @@ const Catalog = () => {
     };
     fetchMovies();
   }, [selectedId, category]);
-
-  console.log(` - ${category} - ${selectedId}`)
   return (
     <section className={s.catalog} id="movieCatalog">
       <Container>
