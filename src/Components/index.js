@@ -15,18 +15,3 @@ export { default as DetailsInfo} from './Widgets/DetailsInfo/DetailsInfo';
 
 export { default as Home} from './Pages/Home/Home';
 export { default as Details} from './Pages/Details/Details';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

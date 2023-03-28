@@ -5,7 +5,6 @@ const Body = () => {
     <div>
       <HeadText />
       <RadioButton />
-      <Wrapper />
       <Footer/>
     </div>
   );

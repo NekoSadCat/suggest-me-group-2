@@ -1,17 +1,17 @@
-import s from './DetailsPoster.module.scss';
+import s from "./DetailsPoster.module.scss";
 
-const DetailsPoster = ({movieType,movieName,poster}) => {
+const DetailsPoster = ({data}) => {
   return (
     <div className={s.detailsPoster}>
-        <div className={s.poster} >
-            <img src={poster} alt="poster" />
-            <div className={s.info}>
-                <span className={s.movieType}>{movieType}</span>
-                <h2 className={s.movieName}>{movieName}</h2>
-            </div>
+      <div className={s.poster}>
+        <img src={data.backdrop} alt="post" />
+        <div className={s.info}>
+          <span className={s.movieType}>{data?.genres[0]?.name}</span>
+          <h2 className={s.movieName}>{data.title}</h2>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default DetailsPoster
+export default DetailsPoster;
