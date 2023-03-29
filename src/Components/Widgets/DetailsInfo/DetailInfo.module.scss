@@ -1,0 +1,40 @@
+@use "../../../scss" as *;
+.detailInfo {
+  @include flex(center, space-between);
+}
+
+.left,
+.right {
+  max-width: 480px;
+}
+.qoute {
+  color: $title-color;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: start;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+.smallInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.infoType {
+  color: #767e94;
+}
+.infoTypeResult {
+  color: #c3c8d4;
+  font-size: 20px;
+  line-height: 32px;
+}

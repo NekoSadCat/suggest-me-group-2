@@ -1,0 +1,28 @@
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    left: 14%;
+    right: 17.29%;
+    top: 10%;
+    bottom: 10%;
+  
+    & img {
+      margin-right: 11px;
+    }
+  }
+  
+  .icon {
+    transition: 150ms ease-in-out;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logo:hover {
+    & .icon {
+      fill: #ffd700;
+    }
+  }
+  

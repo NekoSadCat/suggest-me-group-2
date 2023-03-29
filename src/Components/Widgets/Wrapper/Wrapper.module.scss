@@ -1,0 +1,13 @@
+.Wrapper {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  );
+  grid-template-rows: auto auto; 
+  grid-row-gap: 20px;
+  grid-column-gap: 24px; 
+  color: white;
+  margin-bottom: 64px;
+  justify-content: center;
+}
