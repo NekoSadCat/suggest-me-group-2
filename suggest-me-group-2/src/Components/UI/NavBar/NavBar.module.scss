@@ -1,0 +1,15 @@
+.navBar {
+    a+a {
+        margin-left: 48px;
+    }
+    a:hover {
+        text-decoration: underline;
+        text-decoration-color: red ;
+        transition: 150ms ease;
+    }
+}
+.icon {
+    height: 16px;
+    width: 24px;
+}
+

@@ -1,0 +1,90 @@
+.navbar {
+display: flex;
+align-items: center;
+}
+
+.Movies {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+gap: 8px;
+flex: none;
+order: 0;
+flex-grow: 0;
+position: relative;
+width: 59px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #A8AEBF;
+}
+
+.TV {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+gap: 8px;
+flex: none;
+order: 0;
+flex-grow: 0;
+width: 80px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #A8AEBF;
+}
+
+.Suggestme {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+gap: 8px;
+flex: none;
+order: 0;
+flex-grow: 0;
+width: 101px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #A8AEBF;
+}
+
+.Vector {
+box-sizing: border-box;
+position: absolute;
+left: 100%;
+right: -100%;
+top: 100%;
+bottom: -100%;
+opacity: 0;
+border: 1px solid #A8AEBF;
+transform: rotate(-180deg);
+}
+
+.SuggestmeVector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 8px;
+    width: 189px;
+    height: 48px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
